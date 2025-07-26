@@ -1,0 +1,38 @@
+.add-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, select {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 1rem;
+}
+
+.message {
+  color: #28a745;
+  margin-top: 1rem;
+}
