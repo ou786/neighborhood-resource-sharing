@@ -54,16 +54,14 @@ src/
 
 ### 1. Clone the Repository
 
+
 ```bash
 git clone https://github.com/ou786/neighborhood-resource-sharing.git
 cd neighborhood-resource-sharing
 
-### 2. Install dependencies
 
-```bash
+### 2. Install dependencies
 npm install
 
 ### 3. Start development server
-
-```bash
 npm start
