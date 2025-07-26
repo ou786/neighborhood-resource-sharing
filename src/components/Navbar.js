@@ -32,9 +32,7 @@ function Navbar() {
     Map View
   </NavLink>
 </li>
-
-
-      </ul>
+</ul>
     </nav>
   );
 }

@@ -28,17 +28,21 @@
 
 src/
 ├── components/
-│ ├── Home.js
-│ ├── Profile.js
-│ ├── MapView.js
+│ ├── Navbar.js
 │ └── ItemCard.js
 ├── context/
 │ └── ItemContext.js
 ├── data/
 │ └── mockItems.js
+│ └── mapItems.js
 ├── pages/
 │ ├── AddItem.js
-│ └── MyRequests.js
+│ ├── Home.js
+│ ├── ItemDetails.js
+│ ├── MapView.js
+│ ├── MyRequest.js
+│ ├── NotFound.js
+│ ├── UserProfile.js
 ├── App.js
 └── index.js
 
@@ -47,7 +51,7 @@ src/
 
 ## 🧪 Getting Started
 
-1. **Clone the repository**
+**Clone the repository**
 
 ```bash
 git clone https://github.com/ou786/neighborhood-resource-sharing

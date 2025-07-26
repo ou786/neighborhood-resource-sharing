@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.6rem 1.2rem;        /* Reduced padding */
+  padding: 0.6rem 1.2rem;
   background-color: #007bff;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -10,14 +10,14 @@
 
 .logo {
   font-weight: 600;
-  font-size: 1rem;               /* Slightly smaller */
+  font-size: 1rem;
   letter-spacing: 0.5px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.2rem;                   /* Reduced spacing */
+  gap: 1.2rem;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@
 .nav-links li a {
   color: white;
   text-decoration: none;
-  font-size: 0.95rem;            /* Smaller font */
+  font-size: 0.95rem;
   font-weight: 500;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;

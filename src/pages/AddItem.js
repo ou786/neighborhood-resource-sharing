@@ -36,12 +36,8 @@ function AddItem() {
       setError("All fields are required.");
       return;
     }
-
-    // Clear error
     setError("");
-
-    // Mock random success/failure
-    const success = Math.random() < 0.8; // 80% success rate
+    const success = Math.random() < 0.8;
 
     if (success) {
       const newItem = {

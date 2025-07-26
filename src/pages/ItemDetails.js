@@ -21,7 +21,6 @@ function ItemDetails() {
   }
 
   const handleRequest = () => {
-    // mock request logic (only if available and not already borrowed)
     if (item.available && !item.sold && !item.borrowedBy) {
       const updatedItems = items.map((itm) =>
         itm.id === id ? { ...itm, available: false, borrowedBy: currentUser } : itm
