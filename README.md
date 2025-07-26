@@ -55,7 +55,7 @@ src/
 
 ```bash
 git clone https://github.com/ou786/neighborhood-resource-sharing
-cd neighborhood-share
+cd neighborhood-resource-sharing
 
 
 Install dependencies
