@@ -58,10 +58,12 @@ src/
 ```bash
 git clone https://github.com/ou786/neighborhood-resource-sharing.git
 cd neighborhood-resource-sharing
-
-
+```
 ### 2. Install dependencies
+```bash
 npm install
-
+```
 ### 3. Start development server
+```bash
 npm start
+```
