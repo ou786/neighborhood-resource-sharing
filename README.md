@@ -47,26 +47,23 @@ src/
 └── index.js
 
 
+
 ---
 
 ## 🧪 Getting Started
 
-**Clone the repository**
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ou786/neighborhood-resource-sharing
+git clone https://github.com/ou786/neighborhood-resource-sharing.git
 cd neighborhood-resource-sharing
 
+### 2. Install dependencies
 
-Install dependencies
-
-bash
-Copy
-Edit
+```bash
 npm install
-Start development server
 
-bash
-Copy
-Edit
+### 3. Start development server
+
+```bash
 npm start
